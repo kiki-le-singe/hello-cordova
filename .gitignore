@@ -6,3 +6,6 @@ dist
 build
 !src/assets/build
 reports
+platforms
+plugins
+www
