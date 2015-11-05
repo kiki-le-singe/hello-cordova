@@ -90,6 +90,8 @@
     "webpack-dev-server": "^1.12.1"
   },
   "scripts": {
+    "cordova:platform:add": "cordova platform add ios android",
+    "cordova:plugin:add": "cordova plugin add cordova-plugin-device cordova-plugin-network-information",
     "dev:cordova": "NODE_ENV=dev_cordova webpack --config webpack.cordova.dev.config.js && cordova run android",
     "deploy:cordova": "NODE_ENV=prod_cordova webpack -p --progress --config webpack.cordova.production.config.js && cordova run android",
     "deploy": "NODE_ENV=production webpack -p --progress --config webpack.production.config.js",
