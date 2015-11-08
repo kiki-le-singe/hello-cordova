@@ -9,7 +9,8 @@
     "__DEBUG__": false,
     "Framework7": false,
     "f7App": false,
-    "device": false
+    "device": false,
+    "Connection": false
   },
   "plugins": [
     "react"
