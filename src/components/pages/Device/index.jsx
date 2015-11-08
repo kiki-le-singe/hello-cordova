@@ -7,6 +7,7 @@ class Device extends Page {
   constructor() {
     super();
 
+    /* eslint-disable */
     console.group('cordova-plugin-device');
     console.log(device.cordova);
     console.log(device.model);
@@ -16,6 +17,7 @@ class Device extends Page {
     console.log(device.isVirtual);
     console.log(device.serial);
     console.groupEnd();
+    /* eslint-enable */
   }
 
   getDataPage() {
