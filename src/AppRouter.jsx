@@ -14,6 +14,7 @@ import About from 'components/pages/About';
 import Hello from 'components/pages/Hello';
 import Counter from 'components/pages/Counter';
 import Device from 'components/pages/Device';
+import NetworkInformation from 'components/pages/NetworkInformation';
 
 const AppRouter = (
   <Router history={createHashHistory()}>
@@ -24,6 +25,7 @@ const AppRouter = (
       <Route path="about" component={About} />
       <Route path="counter" component={Counter} />
       <Route path="device" component={Device} />
+      <Route path="network-information" component={NetworkInformation} />
       { /* https://github.com/rackt/react-router/blob/master/UPGRADE_GUIDE.md#notfound-route */ }
       <Route path="*" component={Home}/>
     </Route>
