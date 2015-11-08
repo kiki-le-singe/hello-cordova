@@ -110,7 +110,7 @@ const config = {
       favicon: path.resolve(assetsDir, 'build/favicon.ico'),
       minify: HTMLMinifier,
       inject: 'body',
-      template: path.resolve(assetsDir, 'build/cordova/index.html')
+      template: path.resolve(assetsDir, 'build/index.html')
     }),
     new HtmlWebpackPlugin({ // Also generate a 404.html
       filename: '404.html',
