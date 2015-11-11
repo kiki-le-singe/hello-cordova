@@ -4,5 +4,6 @@
   { "route": "/about", "text": "About" },
   { "route": "/counter", "text": "Counter" },
   { "route": "/device", "text": "Device" },
-  { "route": "/network-information", "text": "Network Information" }
+  { "route": "/network-information", "text": "Network Information" },
+  { "route": "/battery-status", "text": "Battery Status" }
 ]
