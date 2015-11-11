@@ -21,7 +21,7 @@ import 'styles/scss/index.scss';
 function onDeviceReady() {
   window.f7App = new Framework7({
     swipePanel: 'left', // http://www.idangero.us/framework7/docs/side-panels.html#open-panels-with-swipe
-    ajaxLinks: 'a.ajax',
+    ajaxLinks: 'a.ajax, a.close-notification',
     material: true,
   });
 
