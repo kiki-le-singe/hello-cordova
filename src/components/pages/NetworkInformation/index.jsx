@@ -39,12 +39,16 @@ class NetworkInformation extends Page {
 
   onOffline() {
     // Handle the offline event
-    console.log('Your phone is not connected to the internet'); // eslint-disable-line
+    f7App.addNotification({
+      message: 'Your phone is not connected to the internet',
+    });
   }
 
   onOnline() {
     // Handle the offline event
-    console.log('Your phone is connected to the internet'); // eslint-disable-line
+    f7App.addNotification({
+      message: 'Your phone is connected to the internet',
+    });
   }
 
   getDataPage() {
