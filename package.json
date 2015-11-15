@@ -92,7 +92,7 @@
   "scripts": {
     "cordova:create": "npm run cordova:platform:add && npm run cordova:plugin:add",
     "cordova:platform:add": "cordova platform add ios android",
-    "cordova:plugin:add": "cordova plugin add cordova-plugin-device cordova-plugin-network-information cordova-plugin-battery-status",
+    "cordova:plugin:add": "cordova plugin add cordova-plugin-device cordova-plugin-network-information cordova-plugin-battery-status cordova-plugin-device-motion",
     "dev:cordova": "NODE_ENV=dev_cordova webpack --config webpack.cordova.dev.config.js && cordova run android",
     "deploy:cordova": "NODE_ENV=prod_cordova webpack -p --progress --config webpack.cordova.production.config.js && cordova run android",
     "deploy": "NODE_ENV=production webpack -p --progress --config webpack.production.config.js",
